@@ -1,0 +1,180 @@
+#bootstrap-overrides
+{
+	background-color: #262626;
+	font-size:20px;
+	font-family: 'Trebuchet MS', sans-serif!important;
+}
+/*										navbar*/
+#bootstrap-overrides nav
+{
+	background-color:#8c30e8 !important;
+	font-size:20px!important;
+
+	
+}
+.navbar{
+	--bs-navbar-color: rgba(0, 0, 0,)!important;
+	--bs-navbar-hover-color: rgba(0, 0, 0,)!important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link
+{
+    color: white;
+}
+
+.nav-link
+{
+	color:white;
+}
+/*										navbar*/
+/*										ogolne*/
+#logo
+{
+	width:245px;
+	height:65px;
+}
+
+#content
+{
+	background-color: #dedede;
+	color:black;
+	width:80%;
+	min-height: 800px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding: 40px;
+	text-align: justify;
+	border-radius:20px;
+	font-size:20px;
+}
+.zwezenie{  						/*stosowane wewnatrz content do zwezania*/
+	padding-right:5%;
+	padding-left:5%;
+}
+
+#footer
+{
+	background-color:#8c30e8;
+	height:5%;
+	width:100%;
+	padding: 18px;
+	text-align: center;
+}
+.powrot{
+	background-color:#8c30e8;
+	width:90px;
+	padding:5px;
+	margin-top:20px;
+	border-radius:10px;
+}
+.powrot a{
+	color: black;
+	display: block;
+	text-align:center;
+	text-decoration:none;
+}
+/*										ogolne*/
+/*										pojecia*/
+.pojecie{
+	padding-left:5%;
+	padding-right:5%;
+}
+/*										pojecia*/
+/*										kod*/
+#tabelakod{
+	margin-top:100px;
+}
+.table, .td {
+	border: none;
+}
+.td{
+	width:20%;
+	max-height:20%;
+}
+.table {
+	
+}
+.kafelek{
+	height:190px;
+	font-size:28px;
+	background-color:#BABABA;
+	border-radius:20px;
+	box-shadow: 0px 3px 2px 1px #757575;
+	line-height: 190px
+}
+.link{
+	display: block;
+	text-align:center;
+	text-decoration:none;
+	color:#8c30e8;
+	height:100%;
+}
+/*										kod*/
+/* 								zawartosckod*/
+.kodnazwaj{
+	margin-top:5px;
+	
+}
+.kod{
+	background-color:#BABABA;
+	padding:10px;
+	margin:10px;
+	border-radius:20px;
+	box-shadow: 0px 3px 2px 1px #757575;
+	font-family: 'Courier New',monospace;
+}
+/* 								zawartosckod*/
+/*										jezyki*/
+#tabelajezyki{
+	margin-top:100px;
+}
+.nazwaj{
+	display: flex;
+	justify-content: space-between;
+}
+
+.imgj
+{
+	max-width:150px;
+	max-height:150px;
+}
+.linia
+{
+	color:#8c30e8;
+}
+.tytul{
+
+}
+.tekst{
+	
+}
+/* 										admin */
+.admintab, .linijka, .kolumna{
+	border: 1px solid;
+}
+
+.contentadm
+{
+	background-color: #dedede;
+	color:black;
+	width:100%;
+	min-height: 800px;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding: 40px;
+	text-align: justify;
+	border-radius:20px;
+	font-size:15px;
+}
+
+/*										jezyki*/										
+
+/*
+#BABABA szary jasny
+#262626 ciemno szary t³o
+#8c30e8 fiolet
+#ff00ff ró¿
+#dedede szary
+*/

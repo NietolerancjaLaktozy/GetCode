@@ -1,0 +1,105 @@
+create table jezyki(
+id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+nazwa varchar(255),
+logo_jezyka varchar(255),
+opis text,
+historia text,
+UNIQUE	 (id)
+)
+
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('C','logo_c.png','opis_c.txt','historia_c.txt')
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('C++','logo_cpp.png','opis_cpp.txt','historia_cpp.txt')
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('C#','logo_csh.png','opis_csh.txt','historia_csh.txt')
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('Java','logo_java.png','opis_java.txt','historia_java.txt')
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('PHP','logo_php.png','opis_php.txt','historia_php.txt')
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('Javascript','logo_javascript.png','opis_javascript.txt','historia_javascript.txt')
+INSERT INTO jezyki(nazwa, logo_jezyka, opis, historia) VALUES('Python','logo_python.png','opis_python.txt','historia_python.txt')
+
+create table kod(
+id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+akapit varchar(255),
+c varchar(255),
+cpp varchar(255),
+csh varchar(255),
+java varchar(255),
+php varchar(255),
+javascript varchar(255),
+python varchar(255),
+UNIQUE	 (id)
+)
+
+INSERT INTO kod VALUES('','p1','p2','p3','p4','p5','p6','p7','p8')
+
+create table kod(
+id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+for varchar(255),
+while varchar(255),
+dowhile varchar(255),
+if varchar(255),
+switch varchar(255),
+array varchar(255),
+)
+
+CREATE TABLE kod(
+ 
+id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+
+jezyk int
+for text,
+while text,
+
+dowhile text,
+
+if text,
+
+ifelse text,
+
+elseif text,
+
+zmienne` text,
+
+switch text,
+
+array text,
+
+funkcje text,
+FOREIGN KEY(jezyk) REFERENCES jezyki(id),
+UNIQUE	 (id)
+)
+
+INSERT INTO kod1 VALUES('','for(i = 1; i <= 10; i++){<br>
+				printf("%d \n", i);<br>
+				}')
+INSERT INTO kod1 VALUES('','for( i = 1; i <= 10; i++ ){<br>
+					printf("%d \n", i);<br>
+				}')
+INSERT INTO kod1 VALUES('','for (int i = 1; i <= 10; i++) {<br>
+				Console.WriteLine(i);<br>
+				}')
+INSERT INTO kod1 VALUES('','for (int i = 1; i <= 10; i++) {<br>
+			System.out.println(i);<br>
+			}')
+INSERT INTO kod1 VALUES('','for ($i = 1; $i <= 10; $i++) {<br>
+			echo $i;<br>
+			}')
+INSERT INTO kod1 VALUES('','for (let i = 1; i <=10; i++) {<br>
+			document.write(i);<br>
+			}')
+INSERT INTO kod1 VALUES('','for x in range(1, 11):<br>
+			print(x)')
+
+create table akapity(
+id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+tresc text,
+kod varchar(255)
+)
+
+INSERT INTO akapity(tresc,kod) VALUES('p1','for')
+
+create table pojecia(
+id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+tekst text
+)
+
+INSERT INTO pojecia(tekst) VALUES('p')
+
