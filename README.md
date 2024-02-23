@@ -1,3 +1,6 @@
+--O aplikacji--
+Aplikacja getCode jest aplikacją pełniącą rolę zbioru informacji z dziedziny programowania. Zawiera informacje o językach programowania, ich historii oraz zastosowaniu. Jest to projekt który był moją pracą inżynierską na studiach.
+
 --Uruchomienie aplikacji--
 Aplikacja działa w oparciu o bazę danych MySQL "phpmyadmin" z pakietu XAMPP.
 
